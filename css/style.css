@@ -256,3 +256,16 @@ img {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+#bonus{
+  margin: 50px;
+  
+}
+.bonus-btn{
+  font-size: 20px;
+  padding:20px 50px;
+  background-color: brown;
+  color: aliceblue;
+  font-size: 25px;
+  border-radius: 30px;
+  border: none;
+}

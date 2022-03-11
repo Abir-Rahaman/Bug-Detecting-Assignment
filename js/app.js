@@ -168,3 +168,17 @@ const loadPosts = async () => {
 }
 
 loadPosts();
+
+const answer = () =>{
+  const bonus =  document.getElementById('bonus').innerHTML =`
+  <h1>How javascript actually works ?</h1>
+  <br>
+  <h5>A Web browser is used to run the JavaScript program. A standard Web page contains JavaScript code. The browser has a built-in interpreter that interprets and executes the JavaScript code it finds when it loads the website. To put it another way, when we run a JavaScript application in a web browser, the browser's engine receives the JavaScript code and executes it in order to provide the intended output. JavaScript contains only one Call Stack, despite the fact that it is a single-threaded programming language. As a result, it can only do one thing in today's world. The Call Stack is a data structure that keeps track of our program's location. When we step inside it, we place a function on top of the stack. We erupt off the top of the stack when we return from a function.</h5>
+  <br>
+  <br>
+  <br>
+  <h1>Write down The Difference Between Local Storage and Session Storage ?</h1>
+  <br>
+  <h5>The expiration date is the only significant difference between localStorage and sessionStorage. The sessionStorage read-only property can be used to access Session Storage objects. SessionStorage differs from localStorage in that localStorage data does not expire, however, sessionStorage data is removed after the page session expires. Since LocalStorage is not session-based, it can only be erased manually or using JavaScript. SessionStorage, on the other hand, is session-based and works per window or tab. That states that information is only saved for the duration of a session. SessionStorage has a storage capacity of exactly 5MB, whereas LocalStorage has a storage capacity of 5MB/10MB. In a nutshell, the distinction between LocalStorage and Session Storage was obvious.</h5>
+  `
+}
